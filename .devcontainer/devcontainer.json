@@ -1,0 +1,22 @@
+{
+	"name": "PlainMat55",
+	"dockerComposeFile": "compose.yml",
+	"features": {
+		"ghcr.io/devcontainers/features/git": {},
+	  "ghcr.io/devcontainers/features/java:1": {
+			"version": 21,
+			"jdkDistro": "graal"
+		}
+	},
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"overrideCommand": true,
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"eamodio.gitlens",
+				"ms-python.python"
+			]
+		}
+	}
+}

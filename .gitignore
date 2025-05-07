@@ -1,0 +1,11 @@
+*-backups/
+*.bak
+*-cache
+*.log
+**/output/*
+__pycache__
+
+!.gitkeep
+
+
+idea.txt
