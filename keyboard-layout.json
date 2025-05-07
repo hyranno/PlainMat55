@@ -1,0 +1,40 @@
+[
+  [
+    "Calc",
+    "Paste\nCopy",
+    "/\n%",
+    "*\n^",
+    "Menu"
+  ],
+  [
+    "Tab\nUndo",
+    "7\nHome",
+    "8\n↑",
+    "9\nEnd",
+    "-\nRedo"
+  ],
+  [
+    "Space\n(",
+    "4\n←",
+    {
+      "n": true
+    },
+    "5",
+    "6\n→",
+    "+\n)"
+  ],
+  [
+    "CrSel",
+    "1\nBS",
+    "2\n↓",
+    "3\nDel",
+    "Enter"
+  ],
+  [
+    "Layer",
+    "0",
+    "00\nClear",
+    ".\n,",
+    "="
+  ]
+]
