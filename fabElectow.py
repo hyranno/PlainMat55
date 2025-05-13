@@ -41,7 +41,7 @@ def genGerberArchive(path, outdir):
     zip_filename = os.path.basename(path) + ".zip"
     output = os.path.join(outdir, zip_filename)
     with zipfile.ZipFile(output, 'w', zipfile.ZIP_DEFLATED) as zipf:
-      for filepath in Path(outdir).iterdir():
+      for filepath in Path(tmpdir).iterdir():
         zipf.write(filepath, arcname=os.path.basename(filepath))
 
 def genPosition(path, outdir):
